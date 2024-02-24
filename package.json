@@ -1,12 +1,11 @@
 {
-  "name": "nuxt-app",
+  "name": "sondh0127.dev",
   "private": true,
   "type": "module",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
+    "start": "PORT=7777 node .output/server/index.mjs",
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
