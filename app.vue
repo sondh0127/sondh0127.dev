@@ -1,6 +1,6 @@
 <template>
   <div>
-    <NuxtWelcome />
     sondh0127.dev
+    <NuxtWelcome />
   </div>
 </template>
