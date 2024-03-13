@@ -1,4 +1,13 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  devtools: { enabled: true }
+  extends: [
+    '@hyrdrocks/hyrd-ui-library',
+    '@nuxthub/core',
+  ],
+  devtools: { enabled: true },
+  modules: [
+    '@unocss/nuxt',
+    '@nuxt/fonts',
+    '@nuxt/devtools',
+  ],
+  css: ['@unocss/reset/tailwind.css'],
 })
