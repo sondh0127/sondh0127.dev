@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div>
+  <div class="text-primary">
     sondh0127.dev
   </div>
 </template>
