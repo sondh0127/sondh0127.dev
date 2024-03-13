@@ -1,7 +1,7 @@
 <script setup lang="ts">
 useSeoMeta({
-  title: 'NuxtHub Everhour',
-  description: 'Customize everhour frontend',
+  title: 'Son Hong Do Portfolio',
+  description: 'sondh0127.dev',
 })
 </script>
 
